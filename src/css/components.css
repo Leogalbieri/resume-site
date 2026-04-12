@@ -350,12 +350,11 @@
 
 /* Layout */
 .projects-list {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas por linha */
   gap: 18px;
   margin-top: 24px;
   justify-content: center;
-  
 }
 
 /* Card */
