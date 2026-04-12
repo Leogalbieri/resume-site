@@ -334,6 +334,18 @@
 
 
 
+/* EXPERIÊNCIA */
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 24px;
+  justify-content: center;
+}
+
+
+
 /* PROJETOS */
 
 /* Layout */
@@ -425,6 +437,7 @@
 .project-links a:hover::after{
   width: 100%;
 }
+
 
 
 /* UTILITÁRIOS */
